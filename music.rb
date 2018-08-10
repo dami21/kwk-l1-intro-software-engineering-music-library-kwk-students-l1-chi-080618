@@ -1,7 +1,7 @@
 
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
-music = {
+music_hash = {
   "Migos" => "Gang Gang",
   "Taylor Swift" => "Bad Blood",
   "Eric Ballinger" => "Goat",
@@ -12,7 +12,7 @@ music = {
 
 
 def list_artists
-  puts music["Migos"]
+  puts music_hash["Migos"]
 end 
 puts list_artists
   
